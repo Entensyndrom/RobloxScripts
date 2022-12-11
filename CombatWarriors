@@ -29,14 +29,14 @@ local healthbars = {}
 local healthbaroutlines = {}
 local words = {
     "ez",
-    "get good: get .gg/pgancUN3qv",
+    "get good: get .gg/HvHService",
     "trash",
     "touch grass",
     "retard",
     "i love among us",
     "the impostor?!?!?!",
     "grass? whats that",
-    "having issues playing the game? get .gg/pgancUN3qv",
+    "having issues playing the game? get .gg/HvHService",
     "is your dad spiderman? because he far from home",
     "do you ever have problems with light users parrying your ds???",
     "how are you that bad??🤣🤣😂🤣🤣",
@@ -46,9 +46,9 @@ local words = {
     "do you like cheese?",
     "are you even trying to kill me???",
     "get rekt noobie",
-    "go get .gg/pgancUN3qv now",
+    "go get .gg/HvHService now",
     "imagine dying",
-    ".gg/pgancUN3qv on top (not really)",
+    ".gg/HvHService on top (not really)",
     "L Bozo",
     "clapped",
     "nothing personel kid",
@@ -72,7 +72,7 @@ local words = {
     "*Gorilla Sounds*",
     "What's up guys it's quandale dingle here.",
     "Bro got fake Jordans 💀",
-    "frkfx is so cool",
+    "Ente is so cool",
     "Turi ip ip",
     "Say goodbye to your Kneecaps"
 }
@@ -357,7 +357,7 @@ pcall(function()
 end)
 
 local ui = loadstring(game:HttpGet('https://raw.githubusercontent.com/StepBroFurious/Script/main/HydraHubUi.lua'))()
-local window = ui.new("HvH", Players.LocalPlayer.UserId, "ALPHA")
+local window = ui.new("Ente#7420", Players.LocalPlayer.UserId, "ALPHA")
 local main = window:Category("Rage", "rbxassetid://7733965386")
 local player = window:Category("Player", "rbxassetid://7743875962")
 local Combat = window:Category("Combat", "rbxassetid://7743878358")
@@ -1562,7 +1562,7 @@ end)
 local StarterGui = game:GetService("StarterGui")
 
 local Notifications = {
-	"discord.gg/pgancUN3qv",
+	"discord.gg/HvHService",
 	
 }
 
@@ -1573,7 +1573,7 @@ while true do
 		local Notification = Notifications[i]
 		
 		StarterGui:SetCore("SendNotification", {
-			Title = "Join Discord",
+			Title = "Join our Discord!",
 			Text = Notification,
 			Duration = 10
 		})
