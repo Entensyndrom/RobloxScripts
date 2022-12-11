@@ -1573,7 +1573,7 @@ while true do
 		local Notification = Notifications[i]
 		
 		StarterGui:SetCore("SendNotification", {
-			Title = "frkfx",
+			Title = "Join Discord",
 			Text = Notification,
 			Duration = 10
 		})
