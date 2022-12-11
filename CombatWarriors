@@ -356,8 +356,8 @@ pcall(function()
     end
 end)
 
-local ui = loadstring(game:HttpGet('https://raw.githubusercontent.com/StepBroFurious/Script/main/HydraHubUi.lua'))()
-local window = ui.new("frkfx#7420", Players.LocalPlayer.UserId, "ALPHA")
+local ui = loadstring(game:HttpGet('https://raw.githubusercontent.com/Entensyndrom/Roblox/main/CombatWarriors%20GUI.vb'))()
+local window = ui.new("HvH", Players.LocalPlayer.UserId, "Beta")
 local main = window:Category("Rage", "rbxassetid://7733965386")
 local player = window:Category("Player", "rbxassetid://7743875962")
 local Combat = window:Category("Combat", "rbxassetid://7743878358")
